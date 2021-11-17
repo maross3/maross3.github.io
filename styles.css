@@ -1,24 +1,26 @@
 * {
-	font-family: Sans-Serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana;
 }
 
-.title {
-	color: #f5ef7a;
-	text-align: center;
-	font-size: xxx-large;
-	padding-top: 3%;
-	background: url("pattern.webp");
-	height: 145px;
+a {
+  color: aquamarine;
+  font-size: 16 px;
 }
 
-h2{
-		width: 100%;
-		font-size: xx-large;
-		color: white;
+h1 {
+  font-size: 50px;
 }
 
+h2 {
+  color: gray;
+  font-size: 42 px;
+  font-weight: 300;
+}
 
-.price {
-	color: green;
-	font-weight: italic;
+footer {
+  text-align: right;
+  color: gray;
 }
