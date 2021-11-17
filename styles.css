@@ -15,12 +15,15 @@ h1 {
 }
 
 h2 {
-  color: gray;
   font-size: 42 px;
   font-weight: 300;
 }
 
 footer {
   text-align: right;
+  color: gray;
+}
+
+.description {
   color: gray;
 }
