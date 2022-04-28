@@ -1,48 +1,35 @@
-<link href="{{ 'bootstrap.css' }}" rel="stylesheet">
-
-## Welcome to GitHub Pages
-
-# Testing:
-
-This is where I am going to be documenting my screeps library soon :)
-
-```JS
-export var rampartWorkerCreep = { // W,C,M
-  creep: "none",
-  body: [WORK, CARRY, MOVE],
-  ratio: [0.25, 0.25, 0.50],
-  squad: "none",
-  status: QUEUED,
-  act: extensionRushFillRole
-}
-```
-
-| Properties | Description                                         |
-|------------|-----------------------------------------------------|
-| Creep      | Creep assigned through squad Queue                  |
-| Body       | Possible body parts to assign                       |
-| Ratio      | Ratio of body parts to spawn. (must == body.length) |
-| Squad      | Current Assigned Squad                              |
-| Status     | Global defined status (QUEUED, ALIVE, DEAD)         |
-| Act        | The function this squad performs each tick          |
-
-backround is not the right color rip
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page Title Goes Here</title>
+  <meta name="description" content="Description Goes Here">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
 <body>
-<link href="{{ 'bootstrap.css' }}" rel="stylesheet">
-
-<h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
+  <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
 <h1 id="testing-">Testing:</h1>
 <p>This is where I am going to be documenting my screeps library soon :)</p>
-<pre><code class="lang-JS">export var rampartWorkerCreep = { <span class="hljs-comment">// W,C,M</span>
-<span class="hljs-symbol">  creep:</span> <span class="hljs-string">"none"</span>,
-<span class="hljs-symbol">  body:</span> [WORK, CARRY, MOVE],
-<span class="hljs-symbol">  ratio:</span> [<span class="hljs-number">0.25</span>, <span class="hljs-number">0.25</span>, <span class="hljs-number">0.50</span>],
-<span class="hljs-symbol">  squad:</span> <span class="hljs-string">"none"</span>,
-<span class="hljs-symbol">  status:</span> QUEUED,
-<span class="hljs-symbol">  act:</span> extensionRushFillRole
+
+<div class="card border-danger mb-3" style="max-width: 20rem;">
+  <div class="card-header">Declaring a unit</div>
+  <div class="card-body">
+  <h4 class="card-title"></h4>
+  <p class="card-text">
+export var rampartWorkerCreep = {<br>
+ 
+  &ensp;creep: "none",<br>
+  &ensp;body: [WORK, CARRY, MOVE],<br>
+  &ensp;ratio: [0.25, 0.25, 0.50],<br>
+  &ensp;squad: "none",<br>
+  &ensp;status: QUEUED,<br>
+  &ensp;act: extensionRushFillRole<br>
+  </p>
 }
-</code></pre>
-<table>
+</div>
+</div>
+<div class="btn btn-danger">Barracks</div>
+<table class="table table-dark table-hover" style="max-width: 40rem;">
 <thead>
 <tr>
 <th>Properties</th>
@@ -76,5 +63,8 @@ backround is not the right color rip
 </tr>
 </tbody>
 </table>
-<p>backround is not the right color rip</p>
+</div>
+<p></p>
+
 </body>
+</html>
