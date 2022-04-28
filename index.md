@@ -27,7 +27,7 @@ export var rampartWorkerCreep = { // W,C,M
 | Act        | The function this squad performs each tick          |
 
 backround is not the right color rip
-
+<body>
 <link href="{{ 'bootstrap.css' }}" rel="stylesheet">
 
 <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
@@ -77,4 +77,4 @@ backround is not the right color rip
 </tbody>
 </table>
 <p>backround is not the right color rip</p>
-
+</body>
