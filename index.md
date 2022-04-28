@@ -1,4 +1,4 @@
-<link href="{{ 'bootstrap.min.css' }}" rel="stylesheet">
+<link href="{{ 'bootstrap.css' }}" rel="stylesheet">
 
 ## Welcome to GitHub Pages
 
