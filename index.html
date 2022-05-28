@@ -16,6 +16,17 @@
     </head>
 
     <body>
+        
+  <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Mapping Medicaid Supported Mental Healthcare</div>
+  <div class="card-body">
+    <h4 class="card-title">If you were looking for my portfolio, I migrated it to my RoR app: [ link here ]</h4>
+    <p class="card-text">For mental health awareness month, I decided to build a better support system for NC medicaid recipients. Specifically those looking for mental health help on medicaid.
+      <br>
+        <b>How I did it:</b> I parsed a [15,000 page directory pdf](https://www.amerihealthcaritasnc.com/assets/pdf/provider-directory.pdf). After that, I manipulated it for search terms through google. After a google search was ran on the name of buisness, and a business on google places matches, we store that place. The format was a huge GeoJSON file, but wound up using it as a JS object anyways. I left the parsing/format code off of my github, because I feel it could be used for some not so nice things. 
+      </p>
+  </div>
+        
         <div id="map"></div>
     
         <script src="app.js"></script>
